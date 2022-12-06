@@ -7,7 +7,10 @@ import { AdditionComponent } from './pages/addition/addition.component';
 import { SubstractionComponent } from './pages/substraction/substraction.component';
 import { MultiplicationComponent } from './pages/multiplication/multiplication.component';
 import { FormsModule } from '@angular/forms';
+<<<<<<< HEAD
 import { HttpClientModule } from '@angular/common/http';
+=======
+>>>>>>> 33dd3285165c90cbd7ae0649542bde45be7b3425
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,8 +21,12 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
+<<<<<<< HEAD
     FormsModule,
     HttpClientModule
+=======
+    FormsModule
+>>>>>>> 33dd3285165c90cbd7ae0649542bde45be7b3425
   ],
   providers: [],
   bootstrap: [AppComponent]
