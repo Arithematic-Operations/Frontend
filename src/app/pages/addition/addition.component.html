@@ -1,1 +1,19 @@
 <p>addition works!</p>
+<section id="arithmetice">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 addition">
+            <form (ngSubmit)="onSubmit()">
+                <h2>Addition</h2>
+                <label>Number 1</label><br>
+                <input type="text" name="no1" id="number1" [(ngModel)]="no1"><br><br>
+                <label>Number 2</label><br>
+                <input type="text" name="no2" id="number2" [(ngModel)]="no2"><br><br>
+                <input type="submit" value="Addition" name="addition" id="addtion">
+                <label>Answer</label><br>
+                <input type="text" name="no1" id="number1" [(ngModel)]="ans"><br><br>
+            </form>
+            </div>
+        </div>
+    </div>
+</section>

@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { AdditionComponent } from './pages/addition/addition.component';
 import { SubstractionComponent } from './pages/substraction/substraction.component';
 import { MultiplicationComponent } from './pages/multiplication/multiplication.component';
-
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,9 @@ import { MultiplicationComponent } from './pages/multiplication/multiplication.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
