@@ -3,11 +3,11 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class AdditionService {
+export class SubstractionservicesService {
 
   constructor(private http:HttpClient) { }
 
   public getAddition(no1:any,no2:any){
-    return this.http.get(`http://localhost:9094/operation/add/${no1}/${no2}`)
+    return this.http.get(`http://localhost:9091/operation/sub/${no1}/${no2}`)
   }
 }

@@ -6,17 +6,17 @@ import { SubstractionComponent } from './pages/substraction/substraction.compone
 
 const routes: Routes = [
   {
-    path:"add/",
+    path:"add",
     component:AdditionComponent,
     pathMatch:'full'
   },
   {
-    path:"sub/",
+    path:"sub",
     component:SubstractionComponent,
     pathMatch:'full'
   }
   ,{
-    path:"mul/",
+    path:"mul",
     component:MultiplicationComponent,
     pathMatch:'full'
   }

@@ -26,4 +26,5 @@ export class AdditionComponent {
         alert(error)
       }
     )
-}}
+}
+}
