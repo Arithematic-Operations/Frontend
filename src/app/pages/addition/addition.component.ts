@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./addition.component.css']
 })
 export class AdditionComponent {
+  no1:any
+  no2:any
 
+  onSubmit(){
+    console.log(this.no1,this.no2)
+  }
 }
